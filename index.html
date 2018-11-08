@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Min's JQuery Exercise</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+  <div class="grid-container">
+    <div class="header">
+      <h1>Min's JQuery Exercise</h1>
+      <p>Junhee Min 9 November 2018.</p>
+      <p>I learned how to manipulate images with JQuery.</p>
+      <div id="navbar">
+        <a href="#NY">New York</a>
+        <a href="#Seattle">Seattle</a>
+        <a href="#KFR">Kimchi Fried Rice</a>
+        <a href="#GW">Great Wheel</a>
+      </div>
+    </div>
+    <div class="content">
+
+      <article id="NY">
+        <h2>You are a magician.</h2>
+        <img class="nypic" src="images/1.jpeg" alt="new york city"/>
+        <p class="nypicdisc">By Diliff [<a href="http://www.gnu.org/copyleft/fdl.html">GFDL</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA-3.0</a> or <a href="https://creativecommons.org/licenses/by/2.5">CC BY 2.5 </a>], <a href="https://commons.wikimedia.org/wiki/File:Lower_Manhattan_from_Staten_Island_Ferry_Jan_2006.jpg">from Wikimedia Commons</a></p>
+        <p class="disappear">You can make New York City disappear. Click on the button below to make it disappear.</p>
+        <p class="appear">Wow, you made it disappear! Do you want it back? Then, click the button once again.</p>
+        <button class="button nybutton">Click Me!</button>
+      </article>
+
+      <article id="Seattle">
+        <h2>Seattle is a beautiful city.</h2>
+        <img class="seapic" src="images/2.jpeg" alt="seattle"/>
+        <p class="seadisc">I, <a href="/wiki/User:Cacophony" title="User:Cacophony">Cacophony</a> [<a href="http://www.gnu.org/copyleft/fdl.html">GFDL</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA-3.0</a> or <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5 </a>], <a href="https://commons.wikimedia.org/wiki/File:SeattleI5Skyline.jpg">from Wikimedia Commons</a></p>
+        <p>Would you like to see a picture of Seattle? Then click the button below.</p>
+        <button class="button seabutton">Click Me!</button>
+      </article>
+
+      <article id="KFR">
+        <h2>Yummy Kimchi fried rice.</h2>
+        <img class="kfrpic" src="images/3.jpg" alt="kimchi fried rice"/>
+        <p class="kfrdisc">By Wiennat Mongkulmann from Tokyo, Japan (Kimchi chahan) [<a href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0 </a>], <a href="https://commons.wikimedia.org/wiki/File:Kimchi_chahan.jpg">via Wikimedia Commons</a></p>
+        <p>Would you like to watch Kimchi Fried Rice to slide down? Then you know what to do. Click the button below.</p>
+        <button class="button kfrbutton">Click Me!</button>
+      </article>
+
+      <article id="GW">
+        <h2>Seattle Great Wheel</h2>
+        <img class="gwpic" src="images/4.jpeg" alt="seattle great wheel"/>
+        <p class="gwdisc">Diego Delso [<a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0 </a>], <a href="https://commons.wikimedia.org/wiki/File:Seattle_Great_Wheel,_Seattle,_Washington,_Estados_Unidos,_2017-09-02,_DD_16.jpg">from Wikimedia Commons</a></p>
+        <p>This is a picture of Great Wheel in Seattle. Do you want to see it bigger? Click the button below.</p>
+        <button class="button gwbutton">Click Me!</button>
+      </article>
+    </div>
+    <div class="footer">
+      <p>Created by Junhee Min</p>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="js/control.js"></script>
+</body>
+</html>
