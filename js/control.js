@@ -30,7 +30,7 @@ $(document).ready(() => {
   /*
   Code Reference
   Code Academy
-  URL: https://www.codecademy.com/courses/learn-jquery-effects/lessons/jquery-effects/exercises/fade?course_redirect=learn-jquery
+  URL: https://www.codecademy.com/courses/learn-jquery-effects/lessons/jquery-effects/exercises/sliding?course_redirect=learn-jquery
   */
   $(".kfrbutton").on('click',() => {
         $(".kfrpic").slideDown(1000);
