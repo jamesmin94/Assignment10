@@ -22,9 +22,8 @@ $(document).ready(() => {
   URL: https://www.codecademy.com/courses/learn-jquery-effects/lessons/jquery-effects/exercises/fade?course_redirect=learn-jquery
   */
   $(".seabutton").on('click',() => {
-        $(".seapic").fadeIn(3000);
-        $(".seadisc").fadeIn(3000);
-        $(".seabutton").hide();
+        $(".seapic").fadeToggle(3000);
+        $(".seadisc").fadeToggle(3000);
   });
 
   /*
@@ -33,9 +32,8 @@ $(document).ready(() => {
   URL: https://www.codecademy.com/courses/learn-jquery-effects/lessons/jquery-effects/exercises/sliding?course_redirect=learn-jquery
   */
   $(".kfrbutton").on('click',() => {
-        $(".kfrpic").slideDown(1000);
-        $(".kfrdisc").slideDown(1000);
-        $(".kfrbutton").hide();
+        $(".kfrpic").slideToggle(1000);
+        $(".kfrdisc").slideToggle(1000);
   });
 
   /*
