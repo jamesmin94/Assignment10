@@ -1,8 +1,5 @@
 $(document).ready(() => {
-  /*
-  I saw reference for css method on http://api.jquery.com/css/
-  */
-  $(".gwpic").css("width", "10%");
+
 
   /*
   Code Reference
@@ -37,10 +34,13 @@ $(document).ready(() => {
   });
 
   /*
-  I saw reference for css method on http://api.jquery.com/css/
+  Code Reference
+  Code Academy
+  URL: https://www.codecademy.com/courses/learn-jquery/lessons/jquery-effects/exercises/fade?action=resume_content_item
   */
   $(".gwbutton").on('click',() => {
-        $(".gwpic").css("width", "100%");
-        $(".gwbutton").hide();
+        $(".gwpic").fadeOut();
+
+
   });
 })
